@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px
+}
+
+.container{
+    /* border: solid 1px black; */
+    height: 500px;
+    width: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.formShell{
+    /* border: solid 1px red; */
+    width: 430px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeForm{
+    /* border: solid 1px palegoldenrod; */
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: 370px;
+    align-items: flex-start;
+}
+
+.imgShell{
+    /* border: solid 1px blue; */
+    width: 380px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.desktopImg{
+    width: 350px;
+    height: 470px;
+}
+
+#title{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    /* margin-bottom: 20px; */
+}
+
+.subTitle{
+    /* font-size: 16px; */
+}
+
+.perksLi{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.submitBtn{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-size: 12px;
+    border: none;
+}
+
+span, .perksLi, button, input, input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.perksList{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+
+.listCheck{
+    padding-right: 10px;
+}
+
+.emailInput, .submitBtn{
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.emailInput:hover, .submitBtn:hover{
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-image: linear-gradient(to left, #FF8B1F, #F14167);
+    box-shadow: 0px 20px 40px -10px red;
+}
+
+.emailInput{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: solid .5px lightgrey;
+    padding-left: 20px;
+}
+
+.error{
+    background-color: red;
+}
+
+.input-group{
+    width: 315px;
+}
+
+input::placeholder{
+    color: hsl(4, 100%, 67%);
+}
+
+.input-group input:not(:focus):invalid{
+    border-color: hsl(4, 100%, 67%);
+    color: hsl(4, 100%, 67%);
+    background: #FFE1DC;
+}
+
+.input-group input:not(:focus):invalid .errorMsg{
+    opacity: 1;
+}
+
+.errorMsg{
+    opacity: 0;
+    margin-left: 125px;
+    font-size: 12px;
+}
+
+.errorMsgView{
+    opacity: 1;
+    color: hsl(4, 100%, 67%);
+}
+
+.emailLabel, .errorMsg{
+    /* margin-bottom: 20px; */
+}
+
+.containerTwo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 375x;
+    width: 375px;
+    border-radius: 30px;
+}
+
+.successImg{
+    width: 54px;
+    height: 54px;
+}
+
+.successTitle{
+    font-family: 'Robot', sans-serif;
+}
+
+.successMsg{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.dismissBtn{
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dismissBtn:hover{
+    background-image: linear-gradient(to left, #FF8B1F, #F14167);
+    box-shadow: 0px 20px 40px -10px red;
+}
+
+.hide{
+    display: none;
+    font-weight: bold;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:745px){
+   .container{
+    height: 400px;
+    width: 592px;
+   }
+
+   .desktopImg{
+    width: 280px;
+    height: 376px;
+   }
+
+   #title{
+    font-size: 36px;
+    margin-bottom: 16px;
+   }
+
+   .emailInput, .submitBtn{
+    height: 32px;
+   }
+
+   .formShell{
+    width: 344px;
+   }
+
+   .input-group{
+    width: 252px;
+    height: 80px;
+   }
+
+   .subscribeForm{
+    width: 252px;
+    height: 296px;
+   }
+
+   .emailInput{
+    margin-bottom: 5px;
+   }
+
+   .emailLabel, .errorMsg{
+    font-size: 9px;
+   }
+
+   .errorMsg{
+    margin-left: 110px;
+   }
+
+   .perksLi{
+    margin-bottom: 4px;
+   }
+
+   .listCheck{
+    width: 25px;
+    height: 17px;
+   }
+
+   .perksList{
+    margin-top: 24px;
+    margin-bottom: 24px;
+   }
+
+   span, .perksLi, button, input, input::placeholder {
+    font-size: 11px;
+}
+}
