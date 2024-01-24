@@ -1,3 +1,3 @@
 # frontendMentor
 
-This repo contains my practice projects through the website: https://www.frontendmentor.io/
+This repo contains my practice projects that I've completed through the website: https://www.frontendmentor.io/
