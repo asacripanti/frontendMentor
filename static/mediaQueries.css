@@ -1,0 +1,233 @@
+/* MEDIA QUERIES */
+
+@media(max-width:745px){
+    .container{
+     height: 400px;
+     width: 592px;
+    }
+ 
+    .desktopImg{
+     width: 280px;
+     height: 376px;
+    }
+ 
+    #title{
+     font-size: 36px;
+     margin-bottom: 16px;
+    }
+ 
+    .emailInput, .submitBtn{
+     height: 32px;
+    }
+ 
+    .formShell{
+     width: 344px;
+    }
+ 
+    .input-group{
+     width: 252px;
+     height: 80px;
+    }
+ 
+    .subscribeForm{
+     width: 252px;
+     height: 296px;
+    }
+ 
+    .emailInput{
+     margin-bottom: 5px;
+    }
+ 
+    .emailLabel, .errorMsg{
+     font-size: 9px;
+    }
+ 
+    .errorMsg{
+     margin-left: 110px;
+    }
+ 
+    .perksLi{
+     margin-bottom: 4px;
+    }
+ 
+    .listCheck{
+     width: 25px;
+     height: 17px;
+    }
+ 
+    .perksList{
+     margin-top: 24px;
+     margin-bottom: 24px;
+    }
+ 
+    span, .perksLi, button, input, input::placeholder {
+     font-size: 11px;
+ }
+ }
+ 
+ @media(max-width:600px){
+     .container{
+         height: 320px;
+         width: 473px;
+        }
+ 
+        .desktopImg{
+         width: 224px;
+         height: 300px;
+        }
+     
+        #title{
+         font-size: 29px;
+         margin-bottom: 13px;
+        }
+     
+        .emailInput, .submitBtn{
+         height: 26px;
+        }
+     
+        .formShell{
+         width: 275px;
+        }
+     
+        .input-group{
+         width: 201px;
+         height: 64px;
+        }
+     
+        .subscribeForm{
+         width: 201px;
+         height: 237px;
+        }
+     
+        .emailInput{
+         margin-bottom: 4px;
+        }
+     
+        .emailLabel, .errorMsg{
+         font-size: 7px;
+        }
+     
+        .errorMsg{
+         margin-left: 88px;
+        }
+     
+        .perksLi{
+         margin-bottom: 3px;
+        }
+     
+        .listCheck{
+         width: 20px;
+         height: 14px;
+        }
+     
+        .perksList{
+         margin-top: 19px;
+         margin-bottom: 19px;
+        }
+     
+        span, .perksLi, button, input, input::placeholder {
+         font-size: 9px;
+     }   
+ 
+ }
+
+ @media(max-width:430px){
+    body{
+        height: 660px;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        border-radius: 0px;
+        /* justify-content: flex-start; */
+       }
+
+       .imgShell{
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 0 0 15px 15px;
+    }   
+
+    .desktopImg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+        /* transform: scaleY(.5); */
+    }   
+
+    .formShell{
+        width: 100%;
+        height: 420px;
+    }
+
+    .subscribeForm{
+        width: 80%;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .input-group{
+        width: 100%;
+        height: 80px;
+    }
+
+    .emailInput, .submitBtn{
+        height: 45px;
+    }
+
+    #title{
+        font-size: 36px;
+    }
+
+    .subTitle, .perksLi{
+        font-size: 14px;
+        font-weight: lighter;
+    }
+
+    .perksLi{
+        margin-bottom: 8px;
+    }
+
+    .listCheck{
+        width: 28px;
+        height: 20px;
+    }
+
+    .emailLabel{
+        font-size: 10px;
+    }
+
+    .containerTwo{
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .dismissBtn{
+        margin-top: auto;
+        height: 50px;
+    }
+
+    .successTitle{
+        font-size: 36px;
+    }
+
+    .successMsg{
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .successImg{
+        margin-top: 70px;
+        width: 60px;
+        height: 60px;
+    }
+
+    input, input::placeholder{
+        font-size: 18px;
+    }
+
+ }
