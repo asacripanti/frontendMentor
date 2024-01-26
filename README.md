@@ -41,6 +41,7 @@ Users should be able to:
 
 One thing I learned doing this project was how to change the order of the elements being displayed with flexbox. I was a little stumped once I started working on the mobile layout. My basic layout for this app looks like this: 
 
+<!--
   <div class="container">
     <section class="formShell">
       <form class="subscribeForm" action="">
@@ -62,7 +63,7 @@ One thing I learned doing this project was how to change the order of the elemen
       <img class="desktopImg" src="assets/images/illustration-sign-up-desktop.svg" alt="sign up image">
     </section>
   </div>
-
+-->
 
  One parent container with 2 children that hold the text container and the image container for the left and right sides. I used flexbox with a flex-direction of flex to align the children. When styling for mobile, I changed the flex direction of the container to row. My problem was that I needed the img to be on top of the text but it was at the bottom because it's the second child. After googling a bit, I stumbled upon the reverse property for flex-direction, this allowed me to move the img child to be on top. 
  It was really cool to learn a little trick like that from this project. 
