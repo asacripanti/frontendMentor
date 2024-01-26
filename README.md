@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://asacripanti.github.io/newsLetterSignUp/
 
 
 ### Built with
@@ -76,5 +76,6 @@ Something I want to continue looking into is the img position/scaling in the mob
 - Website - https://asacripanti.github.io/portfolio/
 - Frontend Mentor - https://www.frontendmentor.io/profile/asacripanti
 - Github: https://github.com/asacripanti/
+- Linkedin: https://www.linkedin.com/in/alejandro-sacripanti-7abaa823a/
 
 
